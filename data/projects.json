@@ -1,0 +1,22 @@
+[
+  {
+    "id": "volare",
+    "name": "Volare Vision",
+    "description": "Geospatial flight route optimization with text-to-SQL backend.",
+    "url": "https://volarevision.vercel.app",
+    "tags": ["FastAPI", "PostgreSQL", "Leaflet"]
+  },
+  {
+    "id": "cluelessai",
+    "name": "CluelessAI",
+    "description": "Multi-modal wardrobe intelligence and trend recommendation engine.",
+    "tags": ["React", "TypeScript", "AWS S3", "DynamoDB"]
+  },
+  {
+    "id": "kbrre",
+    "name": "KBR Real Estate",
+    "description": "Commercial real estate asset management platform.",
+    "url": "https://kbrre.com",
+    "tags": ["Next.js", "React", "TypeScript"]
+  }
+]
