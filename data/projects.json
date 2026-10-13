@@ -1,22 +1,30 @@
 [
   {
-    "id": "volare",
-    "name": "Volare Vision",
-    "description": "Geospatial flight route optimization with text-to-SQL backend.",
-    "url": "https://volarevision.vercel.app",
-    "tags": ["FastAPI", "PostgreSQL", "Leaflet"]
-  },
-  {
-    "id": "cluelessai",
-    "name": "CluelessAI",
-    "description": "Multi-modal wardrobe intelligence and trend recommendation engine.",
-    "tags": ["React", "TypeScript", "AWS S3", "DynamoDB"]
-  },
-  {
     "id": "kbrre",
-    "name": "KBR Real Estate",
-    "description": "Commercial real estate asset management platform.",
+    "name": "KBR Real Estate Holdings Platform",
+    "description": "Production web platform for 24+ commercial and residential assets across 3 states, 98+ Lighthouse score.",
     "url": "https://kbrre.com",
-    "tags": ["Next.js", "React", "TypeScript"]
+    "tags": ["Next.js", "React", "Tailwind CSS"]
+  },
+  {
+    "id": "volare",
+    "name": "Volare 2.0",
+    "description": "Text-to-SQL aviation analytics platform over multi-million-row BTS T-100 data.",
+    "url": "https://volarevision.live",
+    "tags": ["FastAPI", "PostgreSQL", "Next.js", "Groq", "Google Gemini", "Leaflet"]
+  },
+  {
+    "id": "whereru",
+    "name": "Where RU?: Campus Lost & Found",
+    "description": "Image-based classroom recognition and private lost & found matching for Rutgers campus.",
+    "url": "https://whereru-amber.vercel.app",
+    "tags": ["React", "TypeScript", "Flask", "PyTorch", "OpenCV", "DINOv2"]
+  },
+  {
+    "id": "taskfolio",
+    "name": "taskFolio: University Task Command Center",
+    "description": "Offline-first PWA for tracking courses, assignments, and exams with cross-device sync.",
+    "url": "https://taskfol.io",
+    "tags": ["Next.js", "React", "TypeScript", "Tailwind", "Zustand", "Neon Postgres"]
   }
 ]
