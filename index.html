@@ -351,13 +351,13 @@
             background: var(--black);
             display: grid;
             place-items: center;
+            overflow: hidden;
         }
 
-        .anchor-block__square span {
-            font-size: var(--text-lg);
-            font-weight: 700;
-            letter-spacing: 0.04em;
-            color: var(--canvas);
+        .anchor-block__square img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
         }
 
         .anchor-block__bars {
@@ -931,7 +931,7 @@
                         <div>
                             <p class="hero__role">Software & Systems Engineer</p>
                             <h1 class="hero__title">Anish Kothapalli</h1>
-                            <p class="hero__subtitle">Full-Stack · CS @ Rutgers University</p>
+                            <p class="hero__subtitle">Data Science (Economics) &amp; Computer Science @ Rutgers University</p>
                             <p class="hero__bio">
                                 Software and systems engineer building high-performance full-stack architectures,
                                 serverless edge optimization, and embedded microcontroller firmware.
@@ -943,7 +943,7 @@
                         </div>
 
                         <div class="anchor-block" aria-hidden="true">
-                            <div class="anchor-block__square"><span>AK</span></div>
+                            <div class="anchor-block__square"><img src="headshot.jpg" alt="" loading="lazy"></div>
                             <div class="anchor-block__bars">
                                 <span></span><span></span><span></span>
                             </div>
@@ -962,15 +962,19 @@
                         <div class="spec-sheet">
                             <div class="spec-row">
                                 <div class="spec-row__key">Languages</div>
-                                <div class="spec-row__val">C++, Java, Python, JavaScript, HTML5/CSS3</div>
+                                <div class="spec-row__val">Python, TypeScript, JavaScript, Java, SQL, C#, HTML/CSS, R</div>
                             </div>
                             <div class="spec-row">
                                 <div class="spec-row__key">Frameworks</div>
-                                <div class="spec-row__val">FastAPI, Node.js, LeafletJS, Vercel Serverless, Git Platform Pipelines</div>
+                                <div class="spec-row__val">React, Next.js, Tailwind CSS, FastAPI, Flask, PyTorch, OpenCV, pandas, NumPy, Zustand</div>
                             </div>
                             <div class="spec-row">
-                                <div class="spec-row__key">Systems</div>
-                                <div class="spec-row__val">STM32 Microcontrollers, Embedded Firmware, Distributed System Logic, Data Parsing</div>
+                                <div class="spec-row__key">Cloud &amp; DevOps</div>
+                                <div class="spec-row__val">AWS (Lambda, DynamoDB, S3), PostgreSQL, Vercel, Git/GitHub, GitHub Actions (CI/CD), Linux</div>
+                            </div>
+                            <div class="spec-row">
+                                <div class="spec-row__key">Concepts</div>
+                                <div class="spec-row__val">Full-Stack Development, Backend Systems, REST API Design, Computer Vision, LLM Integration, Data Structures &amp; Algorithms, Software Testing &amp; QA, Secure Coding</div>
                             </div>
                         </div>
                     </section>
